@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fefefe;
+    color: #111;
+    text-align: center;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .logo {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  /* أزرار التنقل */
+  .nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+  }
+  
+  /* زر الاستكشاف */
+  .explore-btn {
+    padding: 10px 20px;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  /* تأثير hover */
+  .nav a:hover,
+  .explore-btn:hover {
+    opacity: 0.9;
+  }
+  
+  /* تأثير الضغط */
+  .nav a:active,
+  .explore-btn:active {
+    transform: scale(0.97);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .main {
+    padding: 80px 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  
